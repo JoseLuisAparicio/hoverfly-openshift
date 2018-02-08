@@ -1,4 +1,11 @@
 # hoverfly-openshift
 SpectoLabs Hoverfly to include in Openshift
-To include hoverfly in Openshift is necessary create two applications: hoverfly-proxy andd hoverfly-webserver, because when hoverfly is stopped, Openshift restart the aplication again in same mode. We need two applications: one with hoverfly as proxy and other hoverfly as webserver.
-This repository included Dockerfiles and Templates to create both applications 
+
+To include hoverfly in Openshift is necessary to create two applications: 
+
+  1.- hoverfly-proxy
+  2.- hoverfly-webserver
+
+When hoverfly is stopped to mode change, Openshift restarts the application again in the same mode.
+
+This repository includes Dockerfiles and Templates to create both applications in Openshift Catalog 
